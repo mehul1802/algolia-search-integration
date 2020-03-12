@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .algolia-autocomplete {
+    display: block !important;
+    width: 100%;
+  }
+  .algolia-autocomplete .aa-hint {
+    display: none;;
+  }
+  .algolia-autocomplete .aa-input {
+    background-color: rgba(0,0,0,0.6) !important;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+   width: 100%;
+   background-color: rgba(0,0,0,0.6);
+  }
+  .algolia-autocomplete  .aa-suggestions {
+    overflow: auto;
+    padding: 20px;
+    color: #2c2f34;
+  }
+  .algolia-autocomplete .info {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .algolia-autocomplete .aa-suggestion {
+    padding-bottom: 30px;
+  }
+  .aa-suggestion .widget-post-list .post-widget-thumbnail img {
+    height: 110px;
+    width: 110px;
+  }
+  .aa-suggestion .post-widget-body .post-title {
+    font-size: 18px;
+    line-height: 23px;
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .aa-suggestion .post-widget-body .post-title:hover {
+    color: #e74c3c
+  }
+  .aa-suggestion .post-widget-body .post-title em {
+    font-style: inherit;
+    background-color: #dc2f33;
+  }
+  .algolia-autocomplete .widget-post-list {
+     margin: 0px 20px 20px;
+  }
+  .algolia-autocomplete .button {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+  }
